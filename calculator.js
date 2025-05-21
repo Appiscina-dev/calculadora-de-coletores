@@ -32,17 +32,17 @@ const brands = {
  //           'MASTERSOL 5000': { area: 2.5, length: 5.0, width: 0.5, size: 'Extra Grande' }
   //      }
   //  },
-    girassol: {
-        name: 'GIRASSOL',
-        litersPerCollector: 4000,
-        collectorSize: { width: 1.1, height: 1.1 },
-        systems: [
-            { type: 'HOME', lines: 2, minCollectors: 2, maxCollectorsPerLine: Infinity },
-            { type: 'PRO', lines: 3, minCollectors: 3, maxCollectorsPerLine: Infinity },
-            { type: 'QUADRA', lines: 4, minCollectors: 4, maxCollectorsPerLine: Infinity }
-        ],
-        specialBehavior: true
-    },
+  //  girassol: {
+    //    name: 'GIRASSOL',
+//        litersPerCollector: 4000,
+  //      collectorSize: { width: 1.1, height: 1.1 },
+ //       systems: [
+ //           { type: 'HOME', lines: 2, minCollectors: 2, maxCollectorsPerLine: Infinity },
+  //          { type: 'PRO', lines: 3, minCollectors: 3, maxCollectorsPerLine: Infinity },
+  //          { type: 'QUADRA', lines: 4, minCollectors: 4, maxCollectorsPerLine: Infinity }
+   //     ],
+  //      specialBehavior: true
+//    },
   //  soria: {
    //     name: 'SORIA',
   //      models: {
@@ -53,14 +53,14 @@ const brands = {
   //          'URJA 5000': { area: 6.0, length: 5.0, width: 1.2, size: 'Industrial' }
   //      }
   //  },
-    tempersol: {
-        name: 'TEMPERSOL',
-        models: {
-            'POOL 200': { area: 1.0, length: 2.0, width: 0.5, size: 'Compacto' },
-            'POOL 300': { area: 1.5, length: 3.0, width: 0.5, size: 'Standard' },
-            'POOL 400': { area: 2.0, length: 4.0, width: 0.5, size: 'Grande' }
-        }
-    }
+ //   tempersol: {
+  //      name: 'TEMPERSOL',
+//        models: {
+  //          'POOL 200': { area: 1.0, length: 2.0, width: 0.5, size: 'Compacto' },
+   //         'POOL 300': { area: 1.5, length: 3.0, width: 0.5, size: 'Standard' },
+   //         'POOL 400': { area: 2.0, length: 4.0, width: 0.5, size: 'Grande' }
+  //      }
+ //   }
 };
 
 // DOM Elements
