@@ -1008,6 +1008,8 @@ header {
 #brand option[value="komeco"],
 #brand option[value="solis"],
 #brand option[value="mastersol"],
+#brand option[value="girassol"],
+#brand option[value="tempersol"],
 #brand option[value="soria"] {
     display: none;
 }
